@@ -1,3 +1,12 @@
+# 
+# key combination to activate: alt+shift+semicolon
+# type a vowel in either lowercase or capital to input its corresponding umlaut vowel
+# type an "s" to get an eszett and a double quote to get the upside down double quote.
+# only works one letter at a time. To cancel, press any other key.
+#
+# requires https://www.autohotkey.com/
+
+
 SendMode Input  ; 
 SetWorkingDir %A_ScriptDir%  ; 
 !+;::
